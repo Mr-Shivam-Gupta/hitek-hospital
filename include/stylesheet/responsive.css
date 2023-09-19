@@ -1,0 +1,173 @@
+
+
+@media (max-width: 1200px){
+h1{font-size: 60px; line-height: 70px;}
+
+
+
+.logo img {height: 55px;}
+#header-wrap.fixed-header .logo img {height: 55px;}
+.navbar-nav .nav-item {margin: 0 10px;}
+.header-3 .navbar-nav .nav-item {margin: 0 5px;}
+
+
+.post .post-desc {padding: 20px;}
+
+.sidebar-links li a {font-size: 14px; padding: 15px 10px;}
+.sidebar-links li.active a, .sidebar-links li a:hover {padding-left: 15px;}
+
+
+.portfolio-filter button {font-size: 14px; padding: 10px 25px;}
+
+
+.social-icons li {margin: 0 4px 0 0;}
+.social-icons li a {height: 35px; line-height: 35px; width: 35px;}
+
+
+.tab .nav-tabs .nav-link{padding: 15px 30px;}
+
+.featured-step {padding: 20px;}
+.featured-step > span {right: 20px; top: 20px;}
+
+}
+
+
+@media (max-width: 992px){
+h1{font-size: 50px; line-height: 60px;}
+
+
+
+#header-wrap{padding: 20px 0;}
+.navbar-toggler {background: #dd6728; border-radius: 0; -webkit-box-shadow: 0 18px 42px 0 rgba(28, 30, 35, 0.15); -moz-box-shadow: 0 18px 42px 0 rgba(28, 30, 35, 0.15); box-shadow: 0 18px 42px 0 rgba(28, 30, 35, 0.15);}
+.navbar-toggler-icon {height: inherit; width: inherit;}
+.navbar-toggler-icon::before {color: #fff; content: ""; font-family: "themify"; font-size: 21px; font-style: normal; font-weight: normal; text-decoration: inherit;}
+.navbar-nav .nav-item{margin: 0;}
+.navbar-nav .nav-link{padding: 10px !important; font-size: 15px; color: #ffffff; line-height: inherit;}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link:focus,
+#header-wrap.fixed-header .navbar-nav .nav-link:hover, #header-wrap.fixed-header .navbar-nav .nav-link.active{background: #ffffff; color: #db6627 !important;}
+.navbar-collapse {z-index: 99; background:#db6627; max-height: 400px; overflow: auto; border: medium none; left: 0; padding: 0; position: absolute; top: 100%; width: 100%;}
+
+.navbar-nav .dropdown-toggle::after { background: none !important; position: absolute; border: none; top: 50%; right: 0; margin: -0.5em 0 0 0; padding: 0; width: 2em; height: 1.4em; font-size: 1.25rem; line-height: 1.2em; text-align: center; }
+.navbar-nav .dropdown-toggle::after { content: '+'; }
+.navbar-nav .dropdown.show > .dropdown-toggle::after { content: '-'; }
+.navbar-nav .dropdown-submenu .dropdown-toggle::after { right: 20px; width: auto; height: auto; margin-right: 0; }
+
+.appoinment-img{position: relative;}
+.home-4 .featured-item.left-icon{padding: 0;}
+.home-4 .featured-item.left-icon .featured-icon{position: inherit; margin-bottom: 15px;}
+.header-3 #header-wrap{padding: 20px;}
+.header-3 #header-wrap.fixed-header{padding: 20px;}
+.header-3 .navbar-nav .nav-item {margin: 0;}
+.header-3 #header-wrap.fixed-header .navbar-nav .nav-link{color: #ffffff}
+.header-3 #header-wrap .navbar-brand {margin-left: 0;}
+
+
+.page-title {padding-bottom: 70px; padding-top: 170px;}
+.fullscreen-banner { min-height: inherit; height: auto !important; }
+.fullscreen-banner .align-center { position: inherit; transform: inherit; padding: 150px 0 150px !important }
+.home-4 .fullscreen-banner .align-center { padding: 200px 0 100px !important }
+
+
+.image-column { left: inherit; position: relative; top: inherit; }
+.image-column-h { min-height: 400px; }
+
+
+.grid.columns-3 .grid-item, .masonry.columns-3 .masonry-brick, .grid.columns-4 .grid-item, .masonry.columns-4 .masonry-brick {width: 50%;}
+
+
+.contact-2 .form-info {left: inherit; position: inherit; top: inherit; transform: inherit; width: 100%;}
+.contact-1 .contact-box{position: inherit; top: inherit; transform: inherit;}
+.contact-3 .iframe-h-2{height: 300px !important;}
+.contact-3 .form-info{padding: 20px !important}
+
+}
+
+@media (max-width: 767px){
+h1, h1 { font-size: 44px; line-height: 54px; }
+h2, h2 { font-size: 32px; line-height: 42px; }
+.section-title p {font-size: 16px;}
+.page-title h1 {font-size: 30px; line-height: 30px;}
+
+
+.page-title {padding-bottom: 70px; padding-top: 120px;}
+
+.fullscreen-banner .lead{font-size: 14px; line-height: 22px;}
+.fullscreen-banner p br{display: none;}
+
+
+.counter {margin: 15px 0 !important;}
+
+
+.grid.columns-3 .grid-item, .masonry.columns-3 .masonry-brick {width: 100%;}
+
+/*Countdown*/
+.countdown > li{display: table-cell; vertical-align: middle; width: auto;}
+.countdown > li span {font-size: 40px; line-height: 40px;}
+.countdown > li p{font-size: 16px;}
+
+
+.iframe-h{height: 300px !important;}
+.html5-video video {width: auto;}
+
+
+.post-queto .item {padding: 20px;}
+.post-queto .item span {display: block; margin-bottom: 15px; position: inherit; top: inherit; left: inherit;}
+.reply {bottom: inherit; margin-top: 15px; position: inherit; right: inherit;}
+
+.team-description .skill-title {bottom: -40px;}
+
+
+.tab .nav-tabs .nav-link {font-size: 15px; padding: 15px 20px;}
+
+
+.testimonial-content {margin-top: 30px;}
+
+}
+
+@media (max-width: 576px){
+h1, h1 { font-size: 40px; line-height: 50px; }
+h2, h2 { font-size: 30px; line-height: 40px; }
+h3, .h3 { font-size: 26px; line-height: 36px; }
+h4, .h4 { font-size: 22px; line-height: 32px; }
+.page-title h1 {font-size: 24px;}
+
+
+
+.home-4 .fullscreen-banner .align-center{padding-top: 93px !important;}
+
+
+.btn {padding: 10px 20px; font-size: 13px;}
+.btn + .btn {margin-left: 5px;}
+
+
+.about-2 .working-hours li {font-size: 14px;}
+.about-2 .working-hours {padding: 15px 20px 15px;}
+
+
+.portfolio-filter{width: 100%;}
+.portfolio-filter button{width: 100%; margin-bottom: 2px; font-size: 14px; border-right: none;}
+.portfolio-filter button + button {margin-left: 0;}
+.grid.columns-3 .grid-item, .masonry.columns-3 .masonry-brick {width: 100%;}
+.grid.columns-4 .grid-item, .masonry.columns-4 .masonry-brick {width: 100%;}
+
+
+.tab .nav-tabs .nav-link {width: 100%;}
+.tab .tab-content {padding: 20px 0;}
+
+
+.countdown {margin: 30px 0;}
+.countdown > li{padding: 0 10px;}
+.countdown > li span{font-size:30px; line-height: 30px;}
+.countdown > li p{font-size:13px; line-height: 24px;}
+
+
+.rounded-skill{width: 120px; height: 120px;}
+
+
+.testimonial.style-2 {display: block;}
+.slider-pos .owl-carousel{right: inherit;}
+
+
+.modal {top: 0; padding-right: 0 !important}
+
+}

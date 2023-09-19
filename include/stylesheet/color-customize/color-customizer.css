@@ -1,0 +1,30 @@
+
+
+
+.color-customizer {z-index: 10000; right: -300px; width: 300px; position: fixed; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); box-shadow: -3px 0 50px -2px rgba(0, 0, 0, 0.14);}
+.color-customizer .color-button {text-align: center; display: inline-block; z-index: 2; position: absolute; background: #fff; width: 100%; }
+.color-customizer .color-chooser {padding: 20px; background-color: #ffffff; -webkit-box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2); -moz-box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2); box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2);}
+.color-customizer.opened .color-chooser { opacity: 1; }
+.color-customizer a.opener {display: block; height: 45px; background: #4ab242; border-top-left-radius: 5px; border-bottom-left-radius: 5px; width: 45px; font-size: 24px; line-height: 45px; color: #ffffff;  position: absolute; right: 300px; top: 0; text-align: center; text-decoration: none;-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);}
+.color-customizer.opened a.opener { left: -45px; border-color: transparent; }
+.color-customizer ul { list-style: none; margin: 0; padding: 0; font-size: 0; }
+.color-customizer ul li {width: 40px; height: 40px; float: left; position: relative; display: inline-block; cursor: pointer; margin: 0 14px 0 0; -webkit-transition: all linear 0.5s; -moz-transition: all linear 0.5s; -o-transition: all linear 0.5s; -ms-transition: all linear 0.5s; transition: all linear 0.5s; }
+.color-customizer ul li:last-child{margin-right: 0;}
+.color-customizer ul li.selected:before { color: #fff; content: "\e64c"; font-family: 'themify'; font-size: 16px; display: inline-block; position: absolute; top: 50%; left: 50%; text-align: center; transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%);  }
+.color-customizer select { width: 100%; padding: 5px; border: 1px solid #b2bfca; }
+
+.color-customizer .theme-default {background: #4ab242;}
+.color-customizer .theme-blue {background: #0358d5;}
+.color-customizer .theme-light-blue {background: #18c9bf;}
+.color-customizer .theme-sky-blue {background: #3dcaff;}
+.color-customizer .theme-orange {background: #ff7810;}
+
+
+@media (max-width: 576px){
+
+.color-customizer {right: -260px; width: 260px;}
+.color-customizer a.opener{right: 260px;}
+.color-customizer ul li {height: 32px; width: 32px;}
+
+}

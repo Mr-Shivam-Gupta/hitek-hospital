@@ -1,0 +1,137 @@
+
+::-moz-selection { background: #ff7810; color: #fff; text-shadow: none; }
+::-moz-selection { background: #ff7810; color: #fff; text-shadow: none; }
+::selection { background: #ff7810; color: #fff; text-shadow: none; }
+
+
+.theme-bg,
+div.color-customizer a.opener,
+.btn:hover,
+.btn::after,
+.btn.btn-theme,
+.nav-item.dropdown .dropdown-menu a:hover,
+.section-title h6::before,
+.banner-slider h5,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-dots .owl-dot:hover span, .owl-carousel .owl-dots .owl-dot.active span,
+.rounded-skill .rotate,
+.service-item h4,
+.service-icon i,
+.portfolio-filter button.is-checked, .portfolio-filter button:hover,
+.post-meta ul li::before,
+.form-btn,
+.featured-item:hover .featured-icon i,
+.scroll-top a,
+.footer-2 .secondary-footer,
+.ht-progress-bar .progress .progress-bar,
+.accordion.style-2 .accordion-item,
+.tab .nav-tabs .nav-link.active, .tab .nav-tabs .nav-link:hover, .tab .nav-tabs.active > a:focus, .tab .nav-tabs > a:hover,
+.sidebar-links li.active a, .sidebar-links li a:hover,
+.widget .widget-tags li a:hover,
+.pagination > li.active .page-link, .page-link:hover, .page-link:focus,
+.featured-step.style-3 span::before,
+.featured-item .featured-icon::before,
+.featured-item .featured-icon::after,
+.about-2 h3
+{ background-color: #ff7810;}
+
+
+h1,
+a, button, input, 
+a:focus, a:hover,
+.text-theme,
+.topbar-link li a i,
+.topbar-link li a:hover, .top-bar .top-social-list li a:hover,
+.navbar-form[role="search"] button:hover,
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus, .navbar-nav .nav-item .nav-link.active,
+.header-3 #header-wrap.fixed-header .navbar-nav .nav-item .nav-link.active,
+h1 span,
+.title span,
+.btn-simple:hover,
+.btn.btn-white:hover,
+.btn.btn-white.btn-border:hover,
+.btn:focus, .btn.focus,
+.breadcrumb-item.active, .breadcrumb-item a:hover,
+.featured-step > span,
+.featured-item .featured-icon i,
+.theme-bg .video-btn .btn-play, .dark-bg .video-btn .btn-play,
+.testimonial .testimonial-content span,
+.testimonial h6,
+.team-member .team-social-icon ul li a,
+.team-member .team-description h5,
+.post .post-desc h5 a:hover,
+.media-icon li i,
+.scroll-top a:hover,
+.accordion-button:not(.collapsed),
+.price-title,
+.price-value h2 span.price-dollar,
+.contact-info li i,
+.pricing-list li,
+.widget-searchbox .search-btn,
+.widget .widget-categories li a:hover,
+.pagination > li > a, .pagination > li > span,
+.post-queto .item span,
+.comment-date,
+.reply a:hover,
+a.popup,
+.theme-bg .owl-carousel .owl-nav button.owl-prev,
+.theme-bg .owl-carousel .owl-nav button.owl-next,
+.dark-bg .owl-carousel .owl-nav button.owl-prev:hover,
+.dark-bg .owl-carousel .owl-nav button.owl-next:hover,
+.media-icon li a:hover,
+.footer-list li a:hover,
+.header-3 #header-wrap.fixed-header .navbar-nav .nav-link:hover, .header-3 #header-wrap.fixed-header .navbar-nav .nav-link:focus, .header-3 #header-wrap.fixed-header .navbar-nav .nav-item.active .nav-link,
+.header-3 .btn.btn-theme:hover,
+.skill-num,
+.dark-service .service-item .service-description a:hover, .service-description a:hover,
+.dark-post .post .post-desc .post-btn
+{color: #ff7810;}
+
+
+
+.btn.btn-border,
+.btn.btn-theme:hover,
+.owl-carousel.owl-theme .owl-dots .owl-dot span::before,
+.form-control:focus,
+.reply a:hover,
+.featured-step,
+.price-table:hover,
+.pagination > li.active .page-link, .page-link:hover, .page-link:focus,
+.about-2,
+.nice-select:active, .nice-select.open, .nice-select:focus,
+.skill-spinner
+{border-color: #ff7810;}
+
+
+
+.team-images:before {
+  background: -webkit-linear-gradient(top, rgba(255,120,16,0) 0%, rgba(255,120,16,0.9) 55%);
+  background: linear-gradient(to bottom, rgba(255,120,16,0) 0%, rgba(255,120,16,0.9) 55%);
+}
+
+.gallery-item .gallery-hover {
+background: -webkit-linear-gradient(top, rgba(255,120,16,0) 0%, rgba(255,120,16,0.9) 35%);
+background: linear-gradient(to bottom, rgba(255,120,16,0) 0%, rgba(255,120,16,0.9) 35%);}
+
+
+[data-overlay].grediant-overlay:before{background: rgb(2,0,36); /* Old browsers */
+background: -moz-linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(255,120,16,1) 59%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(255,120,16,1) 59%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(255,120,16,1) 59%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020024', endColorstr='#ff7810',GradientType=1 ); /* IE6-9 */}
+
+@media (max-width: 992px){
+
+
+.navbar-collapse{ background-color: #ff7810;}
+.navbar-toggler{background: #ff7810;}
+
+
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link:focus,
+#header-wrap.fixed-header .navbar-nav .nav-link:hover,
+#header-wrap.fixed-header .navbar-nav .nav-link.active
+{color: #ff7810 !important;}
+
+}
